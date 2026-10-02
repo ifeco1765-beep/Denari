@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
 import Flag from "./Flag";
-import { CURRENCIES } from "../utilities/currency";
+import { CURRENCIES } from "./utilities/Currency";
 import { useUser } from "../context/UserContext";
 
 export default function CurrencySwitcher() {

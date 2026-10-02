@@ -1,5 +1,5 @@
 import Sidebar from "./Sidebar";
-import BottomTabBar from "./BottomTabBar";
+import BottomTabBar from "./Bottomtabbar";
 
 export default function DashboardShell({ children }) {
   return (

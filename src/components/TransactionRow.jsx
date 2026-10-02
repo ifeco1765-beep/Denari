@@ -1,4 +1,4 @@
-import { formatMoney } from "../utilities/currency";
+import { formatMoney } from "./utilities/Currency";
 
 export default function TransactionRow({ icon, iconBg, name, category, amount, time, currency = "NGN" }) {
   const isCredit = amount > 0;

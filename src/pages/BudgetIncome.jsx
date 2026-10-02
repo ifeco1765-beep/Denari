@@ -6,7 +6,7 @@ import Button from "../components/Button";
 import IncomeRing from "../components/IncomeRing";
 import { useBudget } from "../context/BudgetContext";
 import { useUser } from "../context/UserContext";
-import { formatMoney } from "../utilities/currency";
+import { formatMoney } from "./utilities/Currency";
 
 const PRESETS = {
   monthly: ["₦250k", "₦500k", "₦750k", "Other"],

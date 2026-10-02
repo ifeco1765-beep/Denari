@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Eye, EyeOff, TrendingUp, TrendingDown } from "lucide-react";
-import { formatMoney, getCurrency } from "../utilities/currency";
+import { formatMoney, getCurrency } from "./utilities/Currency";
 
 export default function BalanceCard({ balance, changePercent = null, goalPercent = 0, currency = "NGN" }) {
   const [hidden, setHidden] = useState(false);

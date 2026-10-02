@@ -8,7 +8,7 @@ import { useBudget } from "../context/BudgetContext";
 import { useExpenses } from "../context/ExpenseContext";
 import { useSavings } from "../context/SavingsContext";
 import { useAuth } from "../context/AuthContext";
-import { formatMoney } from "../utilities/currency";
+import { formatMoney } from "./utilities/Currency";
 
 const ITEMS = [
   { label: "Personal information", icon: User, path: "/personal-information" },

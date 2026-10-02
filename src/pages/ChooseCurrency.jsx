@@ -5,7 +5,7 @@ import Button from "../components/Button";
 import CurrencyOption from "../components/CurrencyOption";
 import Flag from "../components/Flag";
 import { useUser } from "../context/UserContext";
-import { CURRENCIES } from "./utilities/Currency";
+import { CURRENCIES } from "../utilities/Currency";
 
 export default function ChooseCurrency() {
   const navigate = useNavigate();

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { NAV_ITEMS } from "./data/Navitems";
+import { NAV_ITEMS } from "../data/Navitems";
 
 export default function BottomTabBar() {
   const tabs = NAV_ITEMS.filter((item) => item.mobile !== false);

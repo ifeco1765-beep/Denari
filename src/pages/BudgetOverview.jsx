@@ -7,7 +7,7 @@ import { CATEGORIES } from "../data/categories";
 import { useUser } from "../context/UserContext";
 import { useBudget } from "../context/BudgetContext";
 import { useExpenses } from "../context/ExpenseContext";
-import { formatMoney } from "../utilities/currency";
+import { formatMoney } from "../utilities/Currency";
 
 export default function BudgetOverview() {
   const navigate = useNavigate();

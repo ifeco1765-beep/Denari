@@ -6,7 +6,7 @@ import { useBudget } from "../context/BudgetContext";
 import { useExpenses } from "../context/ExpenseContext";
 import { useSavings } from "../context/SavingsContext";
 import { CATEGORIES } from "../data/categories";
-import { formatMoney } from "./utilities/Currency";
+import { formatMoney } from "../utilities/Currency";
 import clipboardImage from "../assets/weekly-review-clipboard.jpg";
 
 export default function WeeklyReview() {

@@ -5,7 +5,7 @@ import DashboardShell from "../components/DashboardShell";
 import { useUser } from "../context/UserContext";
 import { useExpenses } from "../context/ExpenseContext";
 import { CATEGORIES } from "../data/categories";
-import { formatMoney } from "./utilities/Currency";
+import { formatMoney } from "../utilities/Currency";
 
 function buildMonthlyTrend(expenses) {
   const now = new Date();

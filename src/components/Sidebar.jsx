@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Settings } from "lucide-react";
 import Logo from "./Logo";
-import { NAV_ITEMS } from "./data/Navitems";
+import { NAV_ITEMS } from "../data/Navitems";
 
 export default function Sidebar() {
   return (

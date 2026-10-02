@@ -5,7 +5,7 @@ import Button from "../components/Button";
 import ProgressBar from "../components/ProgressBar";
 import { useUser } from "../context/UserContext";
 import { useSavings, GOAL_ICONS } from "../context/SavingsContext";
-import { formatMoney } from "./utilities/Currency";
+import { formatMoney } from "../utilities/Currency";
 
 export default function SavingsGoals() {
   const navigate = useNavigate();

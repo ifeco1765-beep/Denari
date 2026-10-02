@@ -6,7 +6,7 @@ import Input from "../components/Input";
 import Button from "../components/Button";
 import { useUser } from "../context/UserContext";
 import { useExpenses } from "../context/ExpenseContext";
-import { getCurrency, formatMoney } from "./utilities/Currency";
+import { getCurrency, formatMoney } from "../utilities/Currency";
 import { CATEGORIES } from "../data/categories";
 
 export default function AddExpense() {
